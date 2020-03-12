@@ -1,0 +1,30 @@
+server:
+  port: 20002
+
+logging:
+  level:
+    root: debug
+    org.springframework.boot.autoconfigure.logging: INFO
+    org.apache.catalina.startup.DigesterFactory: ERROR
+    org.apache.catalina.util.LifecycleBase: ERROR
+    org.apache.coyote.http11.Http11NioProtocol: WARN
+    org.apache.sshd.common.util.SecurityUtils: WARN
+    org.apache.tomcat.util.net.NioSelectorPool: WARN
+    org.eclipse.jetty.util.component.AbstractLifeCycle: ERROR
+    org.hibernate: WARN
+    org.apache.tomcat : warn
+    sun.rmi : warn
+    org.springframework.beans.factory: warn
+    org.springframework.core: warn
+    org.apache.catalina: warn
+    org.springframework.security.access.prepost: warn
+    #    org.activiti.engine: warn
+    org.springframework.jdbc: warn
+    org.springframework.security.access.method: warn
+    #    org.activiti.spring: warn
+    org.apache.ibatis: warn
+    org.springframework.context: warn
+    org.springframework.web.servlet.handler: warn
+
+gateway:
+  token: 798015e4-28c6-4673-a072-c64e75c6ce84
